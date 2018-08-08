@@ -14,12 +14,18 @@ Git clone
  $ git clone git@github.com:shinoburc/docker-on-vagrant.git
  $ cd docker-on-vagrant
 ```
-Install require vagrant plugins
+Install vagrant plugin
 
 ```shell
 $ vagrant plugin install vagrant-docker-compose
+```
+
+Install vagrant plugin (In http_proxy environment ONLY)
+
+```shell
 $ vagrant plugin install vagrant-proxyconf
 ```
+
 ## Run
 
 ```shell
