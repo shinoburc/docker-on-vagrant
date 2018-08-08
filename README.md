@@ -24,6 +24,7 @@ $ vagrant plugin install vagrant-proxyconf
 
 ```shell
 $ vagrant up
+$ vagrant ssh docker
 ```
 
 ## Reference
