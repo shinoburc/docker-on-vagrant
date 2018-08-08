@@ -1,6 +1,6 @@
 # docker-on-vagrant
 
-Vagrantfile for docker on vagrant.
+Vagrantfile for docker(and docker-compose) on vagrant.
 
 ## Require
 
@@ -18,10 +18,14 @@ Install require vagrant plugins
 
 ```shell
 $ vagrant plugin install vagrant-docker-compose
-$ vagrant plugin install [vagrant-proxyconf](https://github.com/leighmcculloch/vagrant-docker-compose)
+$ vagrant plugin install vagrant-proxyconf
 ```
 ## Run
 
 ```shell
 $ vagrant up
 ```
+
+## Reference
+
+* [vagrant-docker-compose](https://github.com/leighmcculloch/vagrant-docker-compose)
