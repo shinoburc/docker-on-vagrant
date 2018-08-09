@@ -11,8 +11,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.define 'docker' do |docker|
     docker.vm.hostname = 'docker'
-    #config.vm.synced_folder "C:\\vagrant_synced_folder", "/home/vagrant/vagrant_synced_folder",
-          create: true, owner: "vagrant", group: "vagrant"
+    #config.vm.synced_folder "C:\\vagrant_synced_folder", "/home/vagrant/vagrant_synced_folder", create: true, owner: "vagrant", group: "vagrant"
     config.vm.provision :docker
     config.vm.provision :docker_compose
   end
